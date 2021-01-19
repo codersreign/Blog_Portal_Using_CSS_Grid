@@ -1,0 +1,81 @@
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header h2{
+    font-family: cursive;
+    margin-left: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+    padding-right: 1rem;
+}
+
+nav ul li a{
+    color: #000;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.fa{
+    color: #000;
+    padding: 1rem;
+}
+
+section{
+    display: grid;
+    grid-gap: 1rem;
+    width: 96%;
+    margin: 4% auto;
+    grid-template-columns: auto auto auto;
+}
+
+.box1{
+    background-image: url(images/winter.jpg);
+}
+
+.box2{
+    background-image: url(images/city.jpg);
+}
+
+.box3{
+    background-image: url(images/ocean.jpg);
+}
+
+.box4{
+    background-image: url(images/inner.jpg);
+}
+
+.box5{
+    background-image: url(images/field.jpg);
+}
+
+.box6{
+    background-image: url(images/aquatic.jpg);
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6{
+    color: #fff;
+    padding: 1rem;
+    height: 30vh;
+}
+
+
+
+
+
+
+
+
